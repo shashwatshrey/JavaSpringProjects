@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tution Waiver Form</title>
+    </head>
+    <body>
+    <form action="registerform">
+        <h1>Northeastern University <b>Human Resources</b></h1>
+        <h2>Tution Waiver Form</h2>
+        <p>This form is used by part-time faculty, part-time staff, retirees, their spouses or domestic partners and their dependents.
+            All full-time faculty and staff should use the online Tuition Waiver Form found on myNEU. Before completing this form,
+            please refer to the Tuition Waiver Program Guidelines. Be sure to include a Dependent Certification Form along with
+            the submission of this form for any dependent children.</p>
+
+        <h3>Section 1</h3>
+        <label for="term">Academic Term: </label>
+        <select name="term" id="">
+            <option value="fall">Fall</option>
+            <option value="spring">Spring</option>
+            <option value="summer">Summer</option>
+        </select>
+        <select name="year" id="">
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+        </select>
+        <label for="empstatus">Employee Status :</label>
+            <input type="radio" name ="empstatus" value = "P/Tstaff">P/T Staff
+            <input type="radio" name ="empstatus" value ="P/Tfaculty">P/T Faculty
+            <input type="radio" name ="empstatus" value ="Retiree">Retiree
+            <input type="radio" name ="empstatus" value ="Other">Other
+        <p>*Terms with multiple sessions are considered one academic term for tuition waiver purposes e.g., summer sessions I and
+            II are considered one academic term.</p>
+
+        <h3>Section 2</h3>
+        <label for="studentname">Student's Name : </label>
+        <input type="text" name="studentname">
+        <label for="relationtoemp">Relationship to Employee : </label>
+        <input type="text" name="relationtoemp">
+        <label for="studentnuid">Student's NUID : </label>
+        <input type="text" name="studentnuid">
+        <br>
+        <br>
+        <label for="empname">Employee's Name : </label>
+        <input type="text" name="empname">
+        <label for="empnuid">Employee NUID : </label>
+        <input type="text" name="studentname">
+        <label for="department">Department : </label>
+        <input type="text" name="department">
+        <br>
+        <br>
+        <label for="campuslocation">Campus Location : </label>
+        <input type="text" name="campuslocation">
+        <label for="phonenumber">Phone Number : </label>
+        <input type="text" name="phonenumber">
+        <label for="supervisor">Supervisor's Name : </label>
+        <input type="text" name="supervisor">   
+        
+        <h3>Section 3</h3>
+        <label for="school">Indicate the applicable school or program :</label>
+        <br>
+        <br>
+            <input type="radio" name ="school" value = "ugProgram">Undergrad Program
+            <input type="radio" name ="school" value ="law">Law School
+            <input type="radio" name ="school" value ="doctoral">Doctoral Candidate
+            <input type="radio" name ="school" value ="cpsug">CPS Undergrad
+            <input type="radio" name ="school" value ="grad">Grad School
+            <input type="radio" name ="school" value ="cpsg">CPS Grad
+        <p>One course per academic term may be taken one-half hour before the end of your workday. If this applies to you, this
+            form must be signed by your supervisor below and approved by Human Resources Management. </p>
+        <p>Complete the following course information. If you are an employee taking a job related course, please attach the Job
+            Related Designation Form to this waiver. </p>
+        
+        <h3>Section 4</h3>
+        <p>In accordance with Northeastern University's Tuition Waiver Program Guidelines, my signature attests that I am
+            currently enrolled in the above courses, or that the student listed above is my spouse, domestic partner or
+            unmarried dependent child or the dependent child of my domestic partner as defined under current IRS tax
+            regulations. I also certify that I have read the Tuition Waiver Program Guidelines</p>
+            <label for="empsign">Employee signature : </label>
+            <input type="text" name="empsign">
+            
+            <label for="dateempsign">Date : </label>
+            <input type="text" name="dateempsign">
+
+            <label for="hrmapproval">HRM approval : </label>
+            <input type="text" name="hrmapproval">
+
+            <label for="dateapproval">Date : </label>
+            <input type="text" name="dateapproval">
+            <br>
+            <br>
+            <button type="Submit">Submit</button>
+        </form>        
+    </body>
+</html>

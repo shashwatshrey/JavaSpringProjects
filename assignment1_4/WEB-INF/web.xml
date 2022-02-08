@@ -1,0 +1,14 @@
+<web-app>
+    <welcome-file-list>
+        <welcome-file>home.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+        <servlet-name>registerform</servlet-name>
+        <servlet-class>Registerform</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>registerform</servlet-name>
+        <url-pattern>/registerform</url-pattern>
+    </servlet-mapping>
+</web-app>
